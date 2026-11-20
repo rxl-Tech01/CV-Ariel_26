@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karier &amp; Kompetensi — Ariel Maulana</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Ariel<span>CV</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" data-page="index.html" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" data-page="about.html" href="about.html">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" data-page="projects.html" href="projects.html">Proyek</a></li>
+                    <li class="nav-item"><a class="nav-link" data-page="career.html" href="career.html">Karier</a></li>
+                    <li class="nav-item"><a class="nav-link nav-contact" href="#contact">Hubungi Saya</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <span class="meta-label">Portofolio Kompetensi &amp; Perencanaan Karier</span>
+            <h1 class="editorial-title mb-2">Arah Karier &amp; Peta Kompetensi</h1>
+            <p class="editorial-lead mb-0">
+                Evaluasi kemampuan aktual saat ini, pemetaan kekuatan dan kelemahan (SWOT), alasan pemilihan profesi Network Automation Engineer, analisis kesenjangan kompetensi, serta rencana pengembangan 3–5 tahun ke depan.
+            </p>
+        </div>
+    </header>
+
+    <!-- 1. Analisis Kompetensi Saat Ini -->
+    <section class="editorial-section">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <span class="meta-label">01 / Evaluasi Diri</span>
+                    <h2 class="section-heading">Analisis Kompetensi Saat Ini</h2>
+                    <p class="section-note">
+                        Pemetaan objektif berdasarkan praktikum, proyek kuliah yang sudah dikerjakan, dan kursus sertifikasi yang telah diselesaikan.
+                    </p>
+                </div>
+                <div class="col-lg-8">
+                    <p>
+                        Sebagai mahasiswa aktif D3 Teknologi Telekomunikasi di Telkom University (angkatan 2024), kompetensi teknis yang saya miliki saat ini berada pada tahap fondasi akademik dan proyek prototipe, yang terbagi ke dalam tiga area utama:
+                    </p>
+                    <ul class="editorial-list">
+                        <li>
+                            <strong>Jaringan &amp; Telekomunikasi (Praktik Akademik &amp; Fundamental):</strong> Telah mempraktikkan pengalamatan IPv4, subnetting, konfigurasi Inter-VLAN Routing (<code>dot1Q</code>), dan OSPF Area 0 dasar menggunakan Cisco CLI pada praktikum laboratorium, serta memahami konsep dasar jaringan akses serat optik (FTTX) dan materi kursus HCIA-Access V2.5.
+                        </li>
+                        <li>
+                            <strong>Pemrograman Python &amp; Layanan Backend (Hands-on Project):</strong> Telah mengimplementasikan REST API menggunakan Python Flask, manajemen transaksi dan migrasi skema SQLite, verifikasi autentikasi Bearer token dengan <code>hmac.compare_digest</code>, simulator pengujian HTTP terisolasi (<code>simulator.py</code>), serta pengujian unit otomatis (<code>unittest</code> dan <code>Ruff</code>) pada proyek Tugas Akhir <em>QuotaNode</em>.
+                        </li>
+                        <li>
+                            <strong>Sistem IoT &amp; Pengolahan Citra (Hands-on Project &amp; Sedang Dikembangkan):</strong> Memiliki pengalaman memprogram mikrokontroler ESP32 (integrasi RFID, Keypad, dan Blynk pada <em>Smart Door Lock</em>), mengimplementasikan aplikasi klasifikasi citra <em>LeafSense AI</em> (MobileNetV2 &amp; Flask), serta saat ini sedang mempelajari komunikasi serial UART AT Command dan USSD pada modul LTE A7670E.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Analisis SWOT -->
+    <section class="editorial-section">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <span class="meta-label">02 / Pemetaan SWOT</span>
+                    <h2 class="section-heading">Analisis SWOT</h2>
+                    <p class="section-note">
+                        Identifikasi kondisi internal (kekuatan &amp; kelemahan) dan faktor eksternal (peluang &amp; tantangan) dalam mempersiapkan karier.
+                    </p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="swot-grid">
+                        <div class="swot-box">
+                            <h4><span>S</span> Strengths (Kekuatan)</h4>
+                            <ul class="editorial-list">
+                                <li>Memiliki kombinasi dasar jaringan telekomunikasi dengan pengalaman praktik membangun backend Python (Flask, SQLite, REST API).</li>
+                                <li>Terbiasa menyusun pengujian kode otomatis (<code>unittest</code>) dan dokumentasi teknis repositori.</li>
+                                <li>Memiliki 7 sertifikat pelatihan dasar di bidang jaringan akses, FTTX, keamanan siber, cloud, dan AI.</li>
+                            </ul>
+                        </div>
+
+                        <div class="swot-box">
+                            <h4><span>W</span> Weaknesses (Kelemahan)</h4>
+                            <ul class="editorial-list">
+                                <li>Belum memiliki pengalaman magang atau kerja di lingkungan operasional jaringan skala produksi.</li>
+                                <li>Belum menguasai secara praktis pustaka spesifik otomasi jaringan seperti Netmiko, NAPALM, dan Ansible.</li>
+                                <li>Integrasi perangkat keras ESP32 dengan modem A7670E pada Tugas Akhir masih dalam proses penyelesaian.</li>
+                            </ul>
+                        </div>
+
+                        <div class="swot-box">
+                            <h4><span>O</span> Opportunities (Peluang)</h4>
+                            <ul class="editorial-list">
+                                <li>Meningkatnya kebutuhan industri telekomunikasi, ISP, dan data center terhadap otomasi konfigurasi serta pemantauan jaringan.</li>
+                                <li>Ketersediaan simulator jaringan dan container (Packet Tracer, GNS3, PNETLab, Docker) untuk membangun laboratorium mandiri tanpa perangkat fisik mahal.</li>
+                                <li>Adanya program magang industri pada kurikulum vokasi Fakultas Ilmu Terapan, Telkom University.</li>
+                            </ul>
+                        </div>
+
+                        <div class="swot-box">
+                            <h4><span>T</span> Threats (Tantangan)</h4>
+                            <ul class="editorial-list">
+                                <li>Persaingan ketat antar lulusan baru di bidang teknik jaringan dan teknologi informasi.</li>
+                                <li>Banyak posisi jaringan tingkat lanjut yang mensyaratkan sertifikasi profesional (seperti CCNA atau HCIA-Datacom) dan pengalaman praktis.</li>
+                                <li>Perkembangan cepat teknologi infrastruktur cloud dan perkakas NetDevOps yang menuntut pembaruan kompetensi terus-menerus.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Tiga Opsi Karier & Alasan Pemilihan -->
+    <section class="editorial-section">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <span class="meta-label">03 / Target Profesi</span>
+                    <h2 class="section-heading">Tiga Opsi Karier &amp; Alasan Pemilihan</h2>
+                    <p class="section-note">
+                        Penentuan fokus profesi utama beserta dua jalur karier alternatif yang selaras dengan latar belakang studi D3 Teknologi Telekomunikasi.
+                    </p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-4">
+                            <div class="career-option-item option-primary">
+                                <span class="meta-label">Profesi Utama</span>
+                                <h4>1. Network Automation Engineer</h4>
+                                <p>Mengembangkan script Python, integrasi API, dan alur kerja otomatis untuk konfigurasi, pemeliharaan, serta pemantauan perangkat jaringan.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="career-option-item">
+                                <span class="meta-label" style="color: var(--muted);">Opsi Karier 2</span>
+                                <h4>2. Network Operations / Network Engineer</h4>
+                                <p>Menangani operasional infrastruktur routing, switching, jaringan akses FTTX, pemantauan NOC, serta pemecahan masalah konektivitas.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="career-option-item">
+                                <span class="meta-label" style="color: var(--muted);">Opsi Karier 3</span>
+                                <h4>3. IoT &amp; Telemetry System Engineer</h4>
+                                <p>Merancang sistem gateway mikrokontroler, komunikasi data seluler/sensor, dan layanan backend untuk dashboard telemetri IoT.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="surface-panel">
+                        <h3 class="h6 fw-semibold mb-2">Alasan Memilih Network Automation Engineer sebagai Profesi Utama</h3>
+                        <p class="section-note">
+                            Profesi <strong>Network Automation Engineer</strong> dipilih karena berada tepat di titik temu tiga bidang yang saya pelajari: (1) kurikulum inti jaringan dan infrastruktur di D3 Teknologi Telekomunikasi, (2) pengalaman nyata membangun layanan backend, REST API, dan pengujian otomatis menggunakan bahasa Python pada proyek <em>QuotaNode</em>, serta (3) ketertarikan pada sistem pemantauan telemetri perangkat. Jalur ini memungkinkan saya memanfaatkan kemampuan pemrograman Python untuk meningkatkan efisiensi operasional jaringan tanpa meninggalkan latar belakang pendidikan telekomunikasi saya.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Competency Gap Analysis -->
+    <section class="editorial-section">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <span class="meta-label">04 / Kesenjangan Kompetensi</span>
+                    <h2 class="section-heading">Competency Gap Analysis</h2>
+                    <p class="section-note">
+                        Perbandingan antara kemampuan yang sudah saya miliki saat ini dengan standar kompetensi industri untuk posisi Network Automation Engineer.
+                    </p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="editorial-table">
+                            <thead>
+                                <tr>
+                                    <th>Area Kompetensi</th>
+                                    <th>Kemampuan Saat Ini (Aktual)</th>
+                                    <th>Kebutuhan Industri (Target)</th>
+                                    <th>Kesenjangan &amp; Langkah Penutupan</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Routing, Switching &amp; Protokol Jaringan</strong></td>
+                                    <td>Subnetting IPv4, Inter-VLAN (<code>dot1Q</code>), OSPF Area 0 dasar pada lab Cisco CLI, dan dasar FTTX.</td>
+                                    <td>Topologi multi-area OSPF, BGP dasar, STP, ACL, NAT, SNMP, serta pemahaman perangkat multi-vendor.</td>
+                                    <td>Memperbanyak latihan topologi jaringan menengah di simulator dan mempelajari materi kurikulum setara CCNA / HCIA-Datacom.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Otomasi Jaringan dengan Python</strong></td>
+                                    <td>Python untuk pengembangan REST API (Flask), pengelolaan SQLite, dan pengujian <code>unittest</code>.</td>
+                                    <td>Otomasi konfigurasi perangkat melalui SSH dan protokol jaringan menggunakan <strong>Netmiko, Paramiko, NAPALM, RESTCONF/NETCONF</strong>.</td>
+                                    <td>Membangun proyek laboratorium Python untuk mengotomasi backup konfigurasi dan pembuatan VLAN/OSPF pada router virtual.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Configuration Management &amp; Linux</strong></td>
+                                    <td>Penggunaan <code>Dockerfile</code> dasar, container Nginx/Flask, dan Bash script sederhana.</td>
+                                    <td>Administrasi sistem Linux, penulisan <strong>Ansible Playbook</strong> untuk perangkat jaringan, dan alur Git CI/CD.</td>
+                                    <td>Mempelajari manajemen konfigurasi multi-node dengan Ansible pada lingkungan laboratorium berbasis Docker/VM.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Integrasi Hardware Telemetri</strong></td>
+                                    <td>Backend Flask, SQLite, dan simulator HTTP <em>QuotaNode</em> sudah berjalan; koneksi ke modem A7670E belum selesai.</td>
+                                    <td>Pengiriman data telemetri <em>end-to-end</em> yang stabil dari perangkat keras menuju server pemantauan.</td>
+                                    <td>Menyelesaikan pemrograman komunikasi UART ESP32 dengan modul A7670E (AT Command &amp; USSD) pada proyek Tugas Akhir.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Pengalaman Operasional Industri</strong></td>
+                                    <td>Pengalaman terbatas pada praktikum laboratorium dan proyek akademik kuliah.</td>
+                                    <td>Pemahaman prosedur operasional standar (SOP) pengelolaan jaringan produksi dan penanganan insiden di tim NOC/Network.</td>
+                                    <td>Mengikuti program magang industri di perusahaan telekomunikasi, ISP, atau <em>system integrator</em>.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Career Roadmap 3-5 Tahun -->
+    <section class="editorial-section">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <span class="meta-label">05 / Peta Jalan</span>
+                    <h2 class="section-heading">Career Roadmap 3–5 Tahun</h2>
+                    <p class="section-note">
+                        Tahapan realistis dari penyelesaian studi vokasi hingga mencapai peran Network Automation Engineer.
+                    </p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="roadmap-timeline">
+                        <div class="roadmap-item">
+                            <span class="roadmap-period">Tahun 1 (2026 – 2027) · Penyelesaian Studi &amp; Magang Industri</span>
+                            <h4>Menuntaskan Tugas Akhir, Lulus D3, dan Memasuki Peran Entry-Level</h4>
+                            <p>
+                                Menyelesaikan integrasi perangkat keras ESP32 dan modul A7670E pada Tugas Akhir <em>QuotaNode</em>, membangun proyek portofolio awal otomasi jaringan berbasis Python (Netmiko/Paramiko), menjalani magang industri, dan memulai karier pada posisi <em>Junior Network Engineer</em> atau <em>NOC Engineer</em>.
+                            </p>
+                        </div>
+
+                        <div class="roadmap-item">
+                            <span class="roadmap-period">Tahun 2 (2027 – 2028) · Penguatan Operasional &amp; Scripting Jaringan</span>
+                            <h4>Junior Network Engineer dengan Fokus Otomasi Operasional</h4>
+                            <p>
+                                Memperdalam pengalaman operasional routing, switching, dan pemantauan jaringan produksi sambil menerapkan script Python untuk mengotomasi pekerjaan berulang seperti pencadangan konfigurasi dan pemeriksaan status perangkat. Mengambil sertifikasi jaringan tingkat asosiasi (CCNA atau HCIA-Datacom).
+                            </p>
+                        </div>
+
+                        <div class="roadmap-item">
+                            <span class="roadmap-period">Tahun 3 (2028 – 2029) · Transisi Peran Penuh Waktu</span>
+                            <h4>Network Automation Engineer</h4>
+                            <p>
+                                Beralih ke posisi khusus otomasi jaringan: merancang dan memelihara Ansible Playbook, mengintegrasikan API perangkat jaringan (RESTCONF/NETCONF), serta membangun dashboard observabilitas dan validasi perubahan jaringan otomatis.
+                            </p>
+                        </div>
+
+                        <div class="roadmap-item">
+                            <span class="roadmap-period">Tahun 4 – 5 (2029 – 2031) · Pengelolaan Skala Besar &amp; NetDevOps</span>
+                            <h4>Mid-Level Network Automation &amp; Infrastructure Engineer</h4>
+                            <p>
+                                Mengelola arsitektur otomasi jaringan berskala lebih luas dan lingkungan <em>hybrid cloud</em>, mengimplementasikan pipeline CI/CD untuk pengujian konfigurasi infrastruktur (<em>Infrastructure as Code</em>), serta berkontribusi dalam pengembangan standar teknis tim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Action Plan -->
+    <section class="editorial-section">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <span class="meta-label">06 / Rencana Tindakan</span>
+                    <h2 class="section-heading">Action Plan</h2>
+                    <p class="section-note">
+                        Daftar aktivitas konkret, target waktu pengerjaan, dan indikator keberhasilan yang dapat diverifikasi.
+                    </p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="editorial-table">
+                            <thead>
+                                <tr>
+                                    <th>Target Waktu</th>
+                                    <th>Fokus Pengembangan</th>
+                                    <th>Aktivitas Spesifik</th>
+                                    <th>Indikator Keberhasilan</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>1 – 3 Bulan</strong></td>
+                                    <td>Integrasi Hardware Tugas Akhir (<em>QuotaNode</em>)</td>
+                                    <td>Memprogram komunikasi serial UART ESP32 dengan modul A7670E menggunakan AT Command dan USSD, lalu mengirim payload ke endpoint <code>POST /api/node/update</code>.</td>
+                                    <td>Data kuota dan sinyal dari perangkat keras A7670E berhasil masuk ke database SQLite dan tampil di dashboard dengan status operasional non-simulasi.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>3 – 6 Bulan</strong></td>
+                                    <td>Portofolio Dasar Python Network Automation</td>
+                                    <td>Mempelajari pustaka <code>Netmiko</code> / <code>Paramiko</code> dan membuat script Python untuk otomasi konfigurasi VLAN, OSPF, serta backup konfigurasi pada router simulasi.</td>
+                                    <td>Tersedianya minimal 1 repositori proyek lab otomasi jaringan baru yang terdokumentasi lengkap pada akun GitHub <code>rxl-Tech01</code>.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>6 – 12 Bulan</strong></td>
+                                    <td>Penguatan Jaringan, Linux, &amp; Ansible Dasar</td>
+                                    <td>Latihan konfigurasi routing multi-area, penggunaan sistem operasi Linux untuk layanan jaringan, serta pembuatan playbook dasar Ansible.</td>
+                                    <td>Mampu menjalankan otomasi konfigurasi pada topologi multi-router di laboratorium virtual dan menyelesaikan materi persiapan sertifikasi jaringan.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>6 – 12 Bulan</strong></td>
+                                    <td>Persiapan Magang &amp; Rekrutmen Entry-Level</td>
+                                    <td>Memperbarui website portofolio <em>ArielCV</em> dan dokumen CV dengan hasil akhir Tugas Akhir serta mengirimkan lamaran magang atau kerja ke perusahaan telekomunikasi/IT.</td>
+                                    <td>Mengikuti proses seleksi magang industri atau posisi <em>entry-level</em> di bidang jaringan, otomasi, atau IoT.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Strategi Pengembangan & Evaluasi Berkala -->
+    <section class="editorial-section">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <span class="meta-label">07 / Strategi &amp; Evaluasi</span>
+                    <h2 class="section-heading">Strategi Pengembangan &amp; Evaluasi Berkala</h2>
+                    <p class="section-note">
+                        Metode belajar yang diterapkan secara konsisten beserta jadwal peninjauan progres bulanan, semesteran, dan tahunan.
+                    </p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="surface-panel h-100">
+                                <h3 class="h6 fw-semibold mb-3">Strategi Pengembangan Kompetensi</h3>
+                                <ul class="editorial-list">
+                                    <li><strong>Pembelajaran Berbasis Proyek:</strong> Mengubah materi yang dipelajari menjadi proyek fungsional kecil dan menyimpannya di GitHub agar progres teknis tercatat dengan bukti kode.</li>
+                                    <li><strong>Pemanfaatan Laboratorium Virtual:</strong> Menggunakan simulator jaringan dan container Docker untuk mempraktikkan skenario konfigurasi tanpa bergantung pada ketersediaan perangkat fisik.</li>
+                                    <li><strong>Disiplin Pengujian &amp; Dokumentasi:</strong> Menerapkan kebiasaan menulis unit test (<code>unittest</code>) dan panduan penggunaan pada setiap proyek yang dikerjakan.</li>
+                                    <li><strong>Pemanfaatan Modul Akademi Industri:</strong> Mengikuti materi terstruktur dari program kemitraan kampus seperti Cisco Networking Academy, Huawei ICT Academy, dan AWS Academy.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="surface-panel h-100">
+                                <h3 class="h6 fw-semibold mb-3">Evaluasi Karier Berkala</h3>
+                                <ul class="editorial-list">
+                                    <li><strong>Evaluasi Bulanan:</strong> Meninjau progres penyelesaian tahapan Tugas Akhir <em>QuotaNode</em>, memeriksa konsistensi latihan pemrograman/jaringan di GitHub, dan mencatat kendala teknis yang belum terpecahkan.</li>
+                                    <li><strong>Evaluasi Semesteran (Per 6 Bulan):</strong> Memperbarui tabel <em>Competency Gap Analysis</em> untuk menilai kompetensi mana yang sudah berpindah dari level <em>Sedang Dikembangkan</em> ke <em>Hands-on Project</em>, serta meninjau kesiapan CV untuk lamaran magang.</li>
+                                    <li><strong>Evaluasi Tahunan:</strong> Meninjau kesesuaian capaian akademik, sertifikasi, dan posisi magang/kerja terhadap tahapan pada <em>Career Roadmap 3–5 Tahun</em>, lalu menyesuaikan target tahun berikutnya.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & Kontak Profesional -->
+    <footer id="contact" class="site-footer">
+        <div class="container">
+            <span class="meta-label">Kontak Profesional</span>
+            <h2 class="section-heading">Terbuka untuk Magang, Posisi Entry-Level, &amp; Diskusi Teknis</h2>
+            <p class="section-note">
+                Silakan hubungi saya melalui salah satu saluran berikut untuk keperluan rekrutmen, magang industri, atau kolaborasi proyek akademik.
+            </p>
+
+            <div class="contact-strip">
+                <a href="https://github.com/rxl-Tech01" target="_blank" rel="noopener" class="contact-item">
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">github.com/rxl-Tech01</span>
+                </a>
+                <a href="mailto:arielmaulana4906@gmail.com" class="contact-item">
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">arielmaulana4906@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/ariel-maulana-352223333/" target="_blank" rel="noopener" class="contact-item">
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">Ariel Maulana</span>
+                </a>
+                <a href="https://wa.me/6281383199163" target="_blank" rel="noopener" class="contact-item">
+                    <span class="contact-label">WhatsApp</span>
+                    <span class="contact-value">+62 813-8319-9163</span>
+                </a>
+                <a href="https://www.instagram.com/rieel_aa" target="_blank" rel="noopener" class="contact-item">
+                    <span class="contact-label">Instagram</span>
+                    <span class="contact-value">@rieel_aa</span>
+                </a>
+            </div>
+
+            <div class="footer-bottom">
+                <span>&copy; 2026 Ariel Maulana. D3 Teknologi Telekomunikasi, Telkom University.</span>
+                <span>Minimalist Editorial Portfolio</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

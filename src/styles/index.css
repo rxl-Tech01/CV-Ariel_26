@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #090b13;
+  --surface: #111827;
+  --border: #1f2937;
+  --border-light: #374151;
+  --text: #f3f4f6;
+  --muted: #9ca3af;
+  --accent: #20d3ee;
+  --font-sans: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  font-size: 0.96rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.84em;
+  color: var(--accent);
+  background: rgba(32, 211, 238, 0.08);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.font-mono-tech {
+  font-family: var(--font-mono);
+}
+
+/* Print Helper Classes */
+.print-only {
+  display: none;
+}
+
+/* Concise Professional Print CV Stylesheet */
+@media print {
+  @page {
+    margin: 12mm;
+  }
+
+  * {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+    font-size: 9.2pt !important;
+    line-height: 1.38 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .no-print,
+  canvas {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .print-header-layout {
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    gap: 16px !important;
+  }
+
+  .print-photo {
+    display: block !important;
+    width: 76px !important;
+    height: 96px !important;
+    max-width: 76px !important;
+    max-height: 96px !important;
+    object-fit: cover !important;
+    object-position: top !important;
+    border-radius: 3px !important;
+    border: 1px solid #9ca3af !important;
+  }
+
+  /* Additional overrides for dark Tailwind utilities */
+  .bg-\[\#090b13\] {
+    background: transparent !important;
+  }
+  .bg-\[\#111827\] {
+    background: #fff !important;
+  }
+  .text-\[\#f3f4f6\] {
+    color: #111827 !important;
+  }
+  .text-\[\#20d3ee\] {
+    color: #111827 !important;
+  }
+  .border-\[\#1f2937\] {
+    border-color: #d1d5db !important;
+  }
+
+  .print-section {
+    background: #fff !important;
+    color: #111827 !important;
+    padding: 8px 0 !important;
+    border-bottom: 1px solid #d1d5db !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+
+  .print-section {
+    padding: 8px 0 !important;
+    border-bottom: 1px solid #d1d5db !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .print-card-reset {
+    background: transparent !important;
+    border: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 6px !important;
+    box-shadow: none !important;
+  }
+
+  h1, h2, h3, h4, strong, .print-text-dark {
+    color: #111827 !important;
+  }
+
+  p, li, td, span, .print-text-muted {
+    color: #374151 !important;
+  }
+
+  code {
+    color: #111827 !important;
+    background: transparent !important;
+    padding: 0 !important;
+  }
+
+  a {
+    color: #111827 !important;
+    text-decoration: none !important;
+  }
+}

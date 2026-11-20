@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariel Maulana — Portofolio Digital &amp; Perencanaan Karier</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Ariel<span>CV</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" data-page="index.html" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" data-page="about.html" href="about.html">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" data-page="projects.html" href="projects.html">Proyek</a></li>
+                    <li class="nav-item"><a class="nav-link" data-page="career.html" href="career.html">Karier</a></li>
+                    <li class="nav-item"><a class="nav-link nav-contact" href="#contact">Hubungi Saya</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero-editorial">
+        <div class="container">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-7 order-2 order-lg-1">
+                    <span class="meta-label">Portofolio Pribadi</span>
+                    <h1 class="editorial-title">Ariel Maulana</h1>
+                    <p class="editorial-subtitle">Mahasiswa D3 Teknologi Telekomunikasi | Aspiring Network Automation Engineer</p>
+                    <p class="editorial-lead">
+                        Mahasiswa aktif Fakultas Ilmu Terapan, Telkom University yang mempelajari infrastruktur jaringan telekomunikasi, pemrograman Python untuk layanan backend, dan pengembangan sistem Internet of Things (IoT). Fokus membangun fondasi teknis secara bertahap menuju peran otomasi jaringan.
+                    </p>
+                    <div class="btn-group-editorial">
+                        <a href="projects.html" class="btn-editorial btn-editorial-primary">
+                            Lihat Proyek <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="about.html" class="btn-editorial btn-editorial-outline">
+                            Tentang Saya
+                        </a>
+                        <a href="about.html?print=1" class="btn-editorial btn-editorial-outline">
+                            <i class="fa-solid fa-print"></i> Cetak / Simpan CV
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-1 order-lg-2">
+                    <div class="portrait-container">
+                        <div class="portrait-frame">
+                            <img src="certificates/Foto ariel.png" alt="Foto profil Ariel Maulana" class="portrait-photo">
+                        </div>
+                        <div class="portrait-caption">
+                            <span>Telkom University</span>
+                            <span>Networking · Python · IoT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Preview Tiga Proyek Unggulan -->
+    <section class="editorial-section">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <span class="meta-label">Proyek Pilihan</span>
+                    <h2 class="section-heading">Tiga Proyek Utama</h2>
+                    <p class="section-note mb-3">
+                        Dokumentasi proyek tugas akhir, sistem mikrokontroler IoT, dan tugas besar pengolahan sinyal informasi.
+                    </p>
+                    <a href="projects.html" class="link-arrow">
+                        Lihat seluruh studi kasus <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-8">
+                    <article class="project-row">
+                        <div class="d-flex flex-wrap justify-content-between align-items-baseline gap-2 mb-1">
+                            <span class="meta-number">01 / Tugas Akhir</span>
+                            <span class="status-inline">Sedang Dikembangkan (Phase 1)</span>
+                        </div>
+                        <h3 class="project-row-title">QuotaNode — IoT Gateway &amp; Dashboard Monitoring A7670E</h3>
+                        <p class="project-row-desc">
+                            Prototipe sistem pemantauan kuota data dan sinyal seluler dengan backend Flask REST API, database SQLite transaksional, simulator HTTP terisolasi, serta rancangan integrasi ESP32 dan modul LTE A7670E.
+                        </p>
+                        <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+                            <span class="tech-line">Python · Flask · SQLite · Unittest · Target: ESP32 &amp; A7670E</span>
+                            <a href="projects.html#quotanode" class="link-arrow">Detail Proyek <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="project-row">
+                        <div class="d-flex flex-wrap justify-content-between align-items-baseline gap-2 mb-1">
+                            <span class="meta-number">02 / Sistem IoT</span>
+                            <span class="status-inline">Proyek Akademik</span>
+                        </div>
+                        <h3 class="project-row-title">Smart Door Lock Berbasis ESP32, RFID, Keypad, dan Blynk</h3>
+                        <p class="project-row-desc">
+                            Prototipe pengunci pintu berbasis mikrokontroler ESP32 yang menggabungkan pembaca kartu RFID, input kode PIN melalui Keypad, dan integrasi dasar dengan platform aplikasi Blynk.
+                        </p>
+                        <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+                            <span class="tech-line">ESP32 · C/C++ · RFID · Keypad · Blynk</span>
+                            <a href="projects.html#smart-door-lock" class="link-arrow">Detail Proyek <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="project-row">
+                        <div class="d-flex flex-wrap justify-content-between align-items-baseline gap-2 mb-1">
+                            <span class="meta-number">03 / Pengolahan Sinyal Informasi</span>
+                            <span class="status-inline">Tugas Besar Kuliah</span>
+                        </div>
+                        <h3 class="project-row-title">LeafSense AI — Klasifikasi Kematangan Daun Ketapang</h3>
+                        <p class="project-row-desc">
+                            Aplikasi klasifikasi citra daun Ketapang ke dalam kelas Muda, Sedang, dan Tua menggunakan Transfer Learning MobileNetV2 (TensorFlow/Keras) dengan antarmuka prediksi berbasis web Flask.
+                        </p>
+                        <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+                            <span class="tech-line">Python · TensorFlow/Keras · MobileNetV2 · Flask · scikit-learn</span>
+                            <a href="projects.html#leafsense-ai" class="link-arrow">Detail Proyek <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ringkasan Pendidikan, Sertifikasi, & Arah Karier -->
+    <section class="editorial-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="surface-panel h-100">
+                        <span class="meta-label">Pendidikan</span>
+                        <h2 class="section-heading">D3 Teknologi Telekomunikasi</h2>
+                        <p class="mb-2"><strong>Telkom University</strong> — Fakultas Ilmu Terapan (2024 – Sekarang)</p>
+                        <p class="section-note mb-3">
+                            Mempelajari jaringan komunikasi data, konfigurasi routing dan switching, sistem jaringan akses serat optik (FTTX), pemrograman komputer, mikrokontroler, serta pengolahan sinyal informasi.
+                        </p>
+                        <a href="about.html" class="link-arrow">Lihat profil &amp; keahlian lengkap <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="surface-panel h-100">
+                        <span class="meta-label">Sertifikasi &amp; Perencanaan Karier</span>
+                        <h2 class="section-heading">7 Sertifikat &amp; Peta Jalan Karier</h2>
+                        <p class="section-note mb-3">
+                            Telah menyelesaikan 7 pelatihan dasar di bidang jaringan akses (Huawei HCIA-Access, FTTX), keamanan siber (Cisco), cloud computing (AWS, Huawei Cloud), dan AI dasar (Microsoft Azure), disertai pemetaan kompetensi menuju peran Network Automation Engineer.
+                        </p>
+                        <div class="d-flex flex-wrap gap-4">
+                            <a href="about.html#certificates" class="link-arrow">Lihat 7 sertifikat <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="career.html" class="link-arrow">Baca rencana karier <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & Kontak Profesional -->
+    <footer id="contact" class="site-footer">
+        <div class="container">
+            <span class="meta-label">Kontak Profesional</span>
+            <h2 class="section-heading">Terbuka untuk Magang, Posisi Entry-Level, &amp; Diskusi Teknis</h2>
+            <p class="section-note">
+                Silakan hubungi saya melalui salah satu saluran berikut untuk keperluan rekrutmen, magang industri, atau kolaborasi proyek akademik.
+            </p>
+
+            <div class="contact-strip">
+                <a href="https://github.com/rxl-Tech01" target="_blank" rel="noopener" class="contact-item">
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">github.com/rxl-Tech01</span>
+                </a>
+                <a href="mailto:arielmaulana4906@gmail.com" class="contact-item">
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">arielmaulana4906@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/ariel-maulana-352223333/" target="_blank" rel="noopener" class="contact-item">
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">Ariel Maulana</span>
+                </a>
+                <a href="https://wa.me/6281383199163" target="_blank" rel="noopener" class="contact-item">
+                    <span class="contact-label">WhatsApp</span>
+                    <span class="contact-value">+62 813-8319-9163</span>
+                </a>
+                <a href="https://www.instagram.com/rieel_aa" target="_blank" rel="noopener" class="contact-item">
+                    <span class="contact-label">Instagram</span>
+                    <span class="contact-value">@rieel_aa</span>
+                </a>
+            </div>
+
+            <div class="footer-bottom">
+                <span>&copy; 2026 Ariel Maulana. D3 Teknologi Telekomunikasi, Telkom University.</span>
+                <span>Minimalist Editorial Portfolio</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
